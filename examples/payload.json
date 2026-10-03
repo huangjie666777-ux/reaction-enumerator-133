@@ -1,0 +1,13 @@
+{
+  "reaction_smarts": "[N:1].[C:2](=[O:3])Cl>>[N:1][C:2](=[O:3])",
+  "reactants": [
+    [
+      {"id": "methylamine", "smiles": "CN"},
+      {"id": "ethylamine", "smiles": "CCN"},
+      {"id": "benzene-no-match", "smiles": "c1ccccc1"}
+    ],
+    [
+      {"id": "acetyl-chloride", "smiles": "CC(=O)Cl"}
+    ]
+  ]
+}

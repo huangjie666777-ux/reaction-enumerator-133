@@ -1,0 +1,10 @@
+{
+  "reaction_smarts": "[C:1]>>[C:1]",
+  "reactants": [
+    [
+      {"id": "L-alanine", "smiles": "N[C@@H](C)C(=O)O"},
+      {"id": "D-alanine", "smiles": "N[C@H](C)C(=O)O"},
+      {"id": "labeled-ammonium", "smiles": "[15NH4+]"}
+    ]
+  ]
+}
