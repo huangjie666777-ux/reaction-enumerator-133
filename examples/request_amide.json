@@ -1,0 +1,13 @@
+{
+  "reaction_smarts": "[C:1](=[O:2])([OH:3])[*:4].[NH2:5][*:6]>>[*:4][C:1](=[O:2])[N:5][*:6].[OH2:3]",
+  "reagents": [
+    [
+      {"id": "acetic_acid", "smiles": "CC(=O)O"},
+      {"id": "benzoic_acid", "smiles": "O=C(O)c1ccccc1"}
+    ],
+    [
+      {"id": "methylamine", "smiles": "CN"},
+      {"id": "ethylamine", "smiles": "CCN"}
+    ]
+  ]
+}
